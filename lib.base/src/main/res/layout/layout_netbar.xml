@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlNetNotice"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/yellow"
+    android:clickable="true"
+    android:visibility="visible" >
+
+    <ImageView
+        android:id="@+id/dd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:src="@mipmap/ic_gantanhao" />
+
+    <TextView
+        android:id="@+id/net_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:background="@color/yellow"
+        android:text="世界上最遥远的距离就是没网，检查设置"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/dd"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@mipmap/ic_more_right_white" />
+
+</RelativeLayout>
