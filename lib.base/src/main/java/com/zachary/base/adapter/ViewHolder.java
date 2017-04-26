@@ -23,9 +23,6 @@ import com.zachary.base.R;
 import jp.wasabeef.glide.transformations.CropCircleTransformation;
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
-/**
- * ListView的ViewHolder
- * */
 public class ViewHolder {
     private final SparseArray<View> mViews;
     private int mPosition;
@@ -44,7 +41,7 @@ public class ViewHolder {
     }
 
     /**
-     * 拿到一个ViewHolder对象
+     *
      *
      * @param context
      * @param convertView
@@ -68,7 +65,7 @@ public class ViewHolder {
     }
 
     /**
-     * 通过控件的Id获取对于的控件，如果没有则加入views
+     *
      *
      * @param viewId
      * @return
@@ -84,7 +81,7 @@ public class ViewHolder {
     }
 
     /**
-     * 为TextView设置字符串
+     *
      *
      * @param viewId
      * @param text
@@ -97,7 +94,7 @@ public class ViewHolder {
     }
 
     /**
-     * 为TextView设置字符串
+     *
      *
      * @param viewId
      * @param text
@@ -117,7 +114,7 @@ public class ViewHolder {
     }
 
     /**
-     * 为TextView设置字符串
+     *
      *
      * @param viewId
      * @return
@@ -141,7 +138,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为TextView设置字体颜色
      *
      * @param viewId
      * @param color
@@ -154,7 +150,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为TextView设置背景色
      *
      * @param viewId
      * @param color
@@ -167,7 +162,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为TextView设置背景色
      *
      * @param viewId
      * @param color
@@ -189,7 +183,6 @@ public class ViewHolder {
         view.setClickable(c);
     }
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param drawableId
@@ -215,7 +208,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param bm
@@ -228,7 +220,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param url
@@ -265,7 +256,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param url
@@ -279,7 +269,6 @@ public class ViewHolder {
 
 
     /**
-     * 为ImageView设置圆形图片
      *
      * @param viewId
      * @param url
@@ -294,7 +283,6 @@ public class ViewHolder {
 
 
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param url
@@ -313,7 +301,6 @@ public class ViewHolder {
     }
 
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param url
@@ -334,7 +321,6 @@ public class ViewHolder {
 
 
     /**
-     * 为ImageView设置图片
      *
      * @param viewId
      * @param url

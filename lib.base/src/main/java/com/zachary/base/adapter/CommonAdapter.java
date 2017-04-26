@@ -8,14 +8,6 @@ import android.widget.BaseAdapter;
 
 import java.util.List;
 
-/**
- *Author:Zachary
- *Time:2016/4/13 0013 下午 1:18
- *Dec:ListView通用Adapter
- *Call:0592-3278796
- *Email:developer@baogukeji.com
- *Web:www.baogukeji.com
- */
 public abstract class CommonAdapter<T> extends BaseAdapter
 {
 	protected LayoutInflater mInflater;

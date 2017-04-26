@@ -1,4 +1,17 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'//添加
+//添加
+publish {
+    userOrg = 'zachary520'//bintray.com账户名
+    //以下三项随便设置
+    groupId = 'com.github.zachary46'//jcenter上的路径
+    artifactId = 'MyBase'//项目名称
+    publishVersion = '1.0.0'//版本号
+    //compile 'com.zachary46:toastutil:1.0.0'
+    desc = 'My first commit to JCenter'//描述，不重要
+    website = 'https://github.com/Zachary46/MyBase'//网站，不重要；尽量模拟github上的地址，例如我这样的；当然你有地址最好了
+}
+
 def buildSdkVersion = 25
 def buildToolVersion = "25.0.1"
 def supportVersion = "25.0.1"
@@ -21,7 +34,12 @@ android {
     }
 }
 
-
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+task javadoc(type: Javadoc) {    options.encoding = "utf-8"}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

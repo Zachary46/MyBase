@@ -8,14 +8,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-/**
- *Author:Zachary
- *Time:2016/4/13 0013 下午 1:18
- *Dec:RecycleView通用Adapter
- *Call:0592-3278796
- *Email:developer@baogukeji.com
- *Web:www.baogukeji.com
- */
+
 public abstract class CommonAdapterX<T> extends RecyclerView.Adapter {
     protected LayoutInflater mInflater;
     protected Context mContext;

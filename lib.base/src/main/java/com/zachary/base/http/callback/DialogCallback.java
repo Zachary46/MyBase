@@ -27,7 +27,6 @@ public abstract class DialogCallback<T> extends JsonCallback<T> {
     @Override
     public void onBefore(BaseRequest request) {
         super.onBefore(request);
-        //网络请求前显示对话框
         if (dialog != null && !dialog.isShowing()) {
             dialog.show();
         }
@@ -36,7 +35,6 @@ public abstract class DialogCallback<T> extends JsonCallback<T> {
     @Override
     public void onAfter(@Nullable T t, @Nullable Exception e) {
         super.onAfter(t, e);
-        //网络请求结束后关闭对话框
         if (dialog != null && dialog.isShowing()) {
             dialog.dismiss();
         }
